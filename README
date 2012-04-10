@@ -1,0 +1,10 @@
+This directory is a Clojure lein project for JavaSoundSample.  Get lein here:
+
+https://github.com/technomancy/leiningen
+
+## Usage
+
+1) Run 'make' at the root directory of libpd project to produce 'libpdnative.so' in the lib/ folder.
+2) Create a folder 'native/' in this directory and copy 'libpdnative.so' into it. (Or, change the 'project.clj' to look for 'libpdnative.so' elsewhere)
+3) Run 'lein compile' in this directory.
+4) Run 'lein run'.
