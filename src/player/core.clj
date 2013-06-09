@@ -100,7 +100,7 @@
         (= m 'playing?) (playing?)
         :else (println "Error: Unknown operation -- deck")))
 
-    ;;listen for end-of-clip bang
+    ;;listen for end-of-clip bang NOTE: WORK IN PROGRESS
     (def my-dispatcher (new dispatcher))
     (PdBase/setReceiver my-dispatcher)
     (defn my-listener [] (proxy [PdListener] []
